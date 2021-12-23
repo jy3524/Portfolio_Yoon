@@ -1,19 +1,15 @@
-import Head from 'next/head'
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container } from '@chakra-ui/react';
 
-export default function Home() {
+const Home = () => {
   return (
     <Container>
-      <Box as="main" pb={8}>
-        <Head>
-          <title>Jeongin Yoon</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-      </Box>
-      <Box>
-        Hello
+      <Box align="center" fontSize={34} fontFamily="Courier">
+        Hi, My name is Jeongin Yoon. 
+        I am a creative technologist based in NYC. 
+        I am passionate about human-centered design and engineering for AR and VR.
       </Box>
     </Container>
   )
 }
+
+export default Home
