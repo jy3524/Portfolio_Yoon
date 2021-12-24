@@ -1,12 +1,23 @@
-import { Box, Container } from '@chakra-ui/react';
+import { Box, Container, Heading } from '@chakra-ui/react'
 
 const Home = () => {
   return (
     <Container>
-      <Box align="center" fontSize={34} fontFamily="Courier">
-        Hi, My name is Jeongin Yoon. 
-        I am a creative technologist based in NYC. 
-        I am passionate about human-centered design and engineering for AR and VR.
+      <Box display={{ md: 'flex' }} flexGrow={1}>
+        <Heading 
+          as="h2" 
+          alignItems="center" 
+          align="center" 
+          d="flex" 
+          h="90vh" 
+          justifyContent="center" 
+          fontFamily="Courier" 
+          fontWeight="medium"
+        >
+          Hi, My name is Jeongin Yoon.
+          I am a creative technologist based in NYC. 
+          I am passionate about UX design and engineering for AR/VR.
+        </Heading>
       </Box>
     </Container>
   )
