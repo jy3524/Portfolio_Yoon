@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styled from '@emotion/styled'
+import Link from 'next/link';
+import Image from 'next/image';
+import styled from '@emotion/styled';
 
 const LogoBox = styled.span`
 font-weight: bold;
@@ -10,10 +10,10 @@ align-items: center;
 height: 30px;
 line-height: 20px;
 padding: 10px;
-`
+`;
 
 const Logo = () => {
-  const logoImg = `/logo.png`
+  const logoImg = `/logo.png`;
 
   return(
     <Link href="/">
@@ -23,7 +23,7 @@ const Logo = () => {
         </LogoBox>
       </a>
     </Link>
-  )
+  );
 }
 
-export default Logo
+export default Logo;

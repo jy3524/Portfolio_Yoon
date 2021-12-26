@@ -1,4 +1,4 @@
-import { Box, Container, Heading } from '@chakra-ui/react'
+import { Box, Container, Heading } from '@chakra-ui/react';
 
 const Home = () => {
   return (
@@ -14,13 +14,13 @@ const Home = () => {
           fontFamily="Courier" 
           fontWeight="medium"
         >
-          Hi, My name is Jeongin Yoon.
+          Hi, My name is JEONGIN YOON.
           I am a creative technologist based in NYC. 
           I am passionate about UX design and engineering for AR/VR.
         </Heading>
       </Box>
     </Container>
-  )
+  );
 }
 
-export default Home
+export default Home;

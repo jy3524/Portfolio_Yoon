@@ -1,5 +1,5 @@
-import Logo from "./Logo"
-import NextLink from 'next/link'
+import Logo from './Logo';
+import NextLink from 'next/link';
 import {
   Container,
   Box,
@@ -12,28 +12,32 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-} from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
+  useColorModeValue,
+} from '@chakra-ui/react';
+import { HamburgerIcon } from '@chakra-ui/icons';
+import ToggleButton from './ToggleButton';
 
 const LinkItem = ({ href, path, children }) => {
-  const active = path === href
+  const active = path === href;
+  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900');
   return (
     <NextLink href={href}>
-      <Link p={2}>
+      <Link p={2} bg={active ? 'orange' : undefined} color={active ? '#202023': inactiveColor}>
         {children}
       </Link>
     </NextLink>
-  )
+  );
 }
 
 const Navbar = props => {
-  const { path } = props
+  const { path } = props;
 
   return (
     <Box
       position="fixed"
       as="nav"
       w="100%"
+      bg={useColorModeValue('#ffffff40', '#20202380')}
       style={{ backdropFilter: 'blur(10px' }}
       zIndex={1}
       {...props}
@@ -70,6 +74,7 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
+          <ToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton 
@@ -79,6 +84,9 @@ const Navbar = props => {
                 aria-label="Options" 
               />
               <MenuList>
+                <NextLink href="/" passHref>
+                  <MenuItem fontFamily="Gill Sans" fontWeight="bold">Home</MenuItem>
+                </NextLink>
                 <NextLink href="/portfolio" passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">Portfolio</MenuItem>
                 </NextLink>
@@ -91,7 +99,7 @@ const Navbar = props => {
         </Box>
       </Container>
     </Box>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
