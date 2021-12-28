@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Container>
       <Heading fontFamily="Gill Sans" fontSize={30} mb={4} align="center">
-        About
+        About me
       </Heading>
       <Box 
         flexShrink={0} 
