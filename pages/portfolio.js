@@ -3,7 +3,7 @@ import { Container, Heading } from '@chakra-ui/react';
 const Portfolio = () => {
   return (
     <Container>
-      <Heading as="h3" fontFamily="Gill Sans" fontSize={20} mb={4}>
+      <Heading fontFamily="Gill Sans" fontSize={30} mb={4} align="center">
         Portfolio
       </Heading>
     </Container>

@@ -5,10 +5,9 @@ const Home = () => {
     <Container>
       <Box display={{ md: 'flex' }} flexGrow={1}>
         <Heading 
-          as="h2" 
           alignItems="center" 
           align="center" 
-          d="flex" 
+          d="flex"
           h="90vh" 
           justifyContent="center" 
           fontFamily="Courier" 
