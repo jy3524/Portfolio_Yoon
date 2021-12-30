@@ -17,14 +17,15 @@ const About = () => {
           <motion.img
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.2, duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }}
             marginTop={5}
+            whileHover={{ scale: 1.05 }}
             src="/Jeongin_Yoon.jpg" 
             alt='profile image'
           />
         </motion.div>
       </Box>
-      <motion.div variants={fadeInUp}>
+      <motion.div>
         <Text fontFamily="Gill Sans" fontSize={20} mb={4} align="center" marginTop={5}>
           Hello, My name is Jeongin. 
           I have an interdisciplinary background in Analytics, Business, Design, and Technology. 
