@@ -75,10 +75,10 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
         <Box flex={2} align="right">
-          <Link href='https://github.com/jy3524'>
+          <Link href='https://github.com/jy3524' target='_blank'>
             <IconButton icon={<IoLogoGithub />} marginRight={2.5}/>
           </Link>
-          <Link href='https://www.linkedin.com/in/masahitoyoon'>
+          <Link href='https://www.linkedin.com/in/masahitoyoon' target='_blank'>
             <IconButton icon={<IoLogoLinkedin />} marginRight={2.5}/>
           </Link>
           <ToggleButton />
