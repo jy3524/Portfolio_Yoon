@@ -73,6 +73,9 @@ const Navbar = props => {
           <LinkItem href="/about" path={path}>
             About
           </LinkItem>
+          <Link href={`https://drive.google.com/file/d/1LqWSQDSOe-Ettjxl0yHB4Y8XURtvrupM/view?usp=sharing`} path={path} target='_blank'>
+            Resume
+          </Link>
         </Stack>
         <Box flex={2} align="right">
           <Link href='https://github.com/jy3524' target='_blank'>
@@ -99,6 +102,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/about" passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">About</MenuItem>
+                </NextLink>
+                <NextLink href={`https://drive.google.com/file/d/1LqWSQDSOe-Ettjxl0yHB4Y8XURtvrupM/view?usp=sharing`} passHref>
+                  <MenuItem fontFamily="Gill Sans" fontWeight="bold">Resume</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
