@@ -1,4 +1,4 @@
-import { Container, Heading, Text } from '@chakra-ui/react';
+import { Container, Text } from '@chakra-ui/react';
 
 const Portfolio = () => {
   return (
