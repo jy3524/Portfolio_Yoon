@@ -4,8 +4,8 @@ import { motion, fadeInUp } from 'framer-motion';
 const About = () => {
   return (
     <Container>
-      <Heading fontFamily="Gill Sans" fontSize={30} mb={4} align="center">
-        About me
+      <Heading fontFamily="Gill Sans" fontSize={30} p={5} mb={4} align="center">
+        About Me
       </Heading>
       <Box 
         flexShrink={0} 

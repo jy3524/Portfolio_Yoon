@@ -73,6 +73,9 @@ const Navbar = props => {
           <LinkItem href="/about" path={path}>
             About
           </LinkItem>
+          <LinkItem href="/contact" path={path}>
+            Contact
+          </LinkItem>
           <Link href={`https://drive.google.com/file/d/1LqWSQDSOe-Ettjxl0yHB4Y8XURtvrupM/view?usp=sharing`} path={path} target='_blank'>
             Resume
           </Link>
@@ -102,6 +105,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/about" passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">About</MenuItem>
+                </NextLink>
+                <NextLink href="/contact" passHref>
+                  <MenuItem fontFamily="Gill Sans" fontWeight="bold">Contact</MenuItem>
                 </NextLink>
                 <NextLink href={`https://drive.google.com/file/d/1LqWSQDSOe-Ettjxl0yHB4Y8XURtvrupM/view?usp=sharing`} passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">Resume</MenuItem>

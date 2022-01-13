@@ -15,11 +15,13 @@
     "@emotion/styled": "^11.6.0",
     "@react-three/drei": "^8.3.1",
     "@react-three/fiber": "^7.0.24",
+    "firebase": "^9.6.2",
     "framer-motion": "^5.5.5",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
+    "sass": "^1.47.0",
     "three": "^0.135.0"
   },
   "devDependencies": {
