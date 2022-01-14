@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, Timestamp } from '@firebase/firestore';
 import firebaseConfig from '../components/FirebaseConfig';
 import { EmailIcon, PhoneIcon } from '@chakra-ui/icons';
-import { Button, Flex, Heading, Input, InputGroup, InputLeftElement } from '@chakra-ui/react';
+import { Button, Flex, Heading, Input, InputGroup, InputLeftElement, Textarea } from '@chakra-ui/react';
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
@@ -46,7 +46,7 @@ function Contact() {
             <EmailIcon />
           </InputLeftElement>
         </InputGroup>
-        <Input placeholder='Message' variant="filled" mb={3} boxSize="xs" type="message" value={msg} onChange={(e) => setMsg(e.target.value)}/>
+        <Textarea placeholder='Message' variant="filled" mb={3} size="lg" boxSize="xs" type="message" value={msg} onChange={(e) => setMsg(e.target.value)}/>
         <Button colorScheme="orange" type="submit" onClick={handleSubmit}>Submit</Button>
       </Flex>
     </Flex>
