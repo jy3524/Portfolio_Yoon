@@ -1,4 +1,4 @@
-// Modified from craftzdog-homepage by Takuya
+// Modified from craftzdog-homepage (https://www.craftz.dog) by Takuya
 
 import { Box, Container, Heading } from '@chakra-ui/react';
 import NoSsr from '../components/no-ssr.js';
