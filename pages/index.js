@@ -1,3 +1,5 @@
+// Modified from craftzdog-homepage by Takuya
+
 import { Box, Container, Heading } from '@chakra-ui/react';
 import NoSsr from '../components/no-ssr.js';
 import Logo3D from '../components/Logo3D.js';
