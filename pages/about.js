@@ -19,7 +19,6 @@ const About = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }}
             marginTop={5}
-            whileHover={{ scale: 1.05 }}
             src="/Jeongin_Yoon.jpg" 
             alt='profile image'
           />
