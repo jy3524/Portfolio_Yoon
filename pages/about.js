@@ -29,8 +29,11 @@ const About = () => {
           Hello, My name is Jeongin. 
           I have an interdisciplinary background in Analytics, Business, Design, and Technology. 
           I hold a Master of Science degree in Business Analytics from Indiana University - Kelley School of Business. 
+          Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
           Currently, I am studying Integrated Design and Media at New York University - Tandon School of Engineering. 
-          I am interested in UX design/engineering and AR/VR. 
+          Throughout my education and experience, I became interested in creative technology, especially AR and VR. 
+          To become a creative technologist, I've been developing websites and mobile Augmented Reality applications using Three.js, React.js React Native, Reality Kit, Xcode, and Spark AR. 
+          I am also trying to develop some AR and VR projects in Unity or Unreal Engine. 
           With my diverse background, I am trying to apply my versatile knowledge to solve problems in various industries.
         </Text>
       </motion.div>
