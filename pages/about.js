@@ -31,10 +31,10 @@ const About = () => {
           I hold a Master of Science degree in Business Analytics from Indiana University - Kelley School of Business. 
           Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
           Currently, I am studying Integrated Design and Media at New York University - Tandon School of Engineering. 
-          Throughout my education and experience, I became interested in creative technology, especially AR and VR. 
+          Throughout my education and experience, I became passionate about creative technology, especially AR and VR.  
           To become a creative technologist, I have been developing websites and mobile Augmented Reality applications using Three.js, React.js React Native, Reality Kit, Xcode, and Spark AR. 
-          I am also trying to develop some AR and VR projects in Unity or Unreal Engine. 
-          With my diverse background, I am trying to apply my versatile knowledge to solve problems in various industries.
+          I am also learning Unity and Unreal Engine to create AR and VR projects.  
+          With my diverse background, I am applying my versatile knowledge to solve problems in various industries, such as the fashion industry.
         </Text>
       </motion.div>
     </Container>
