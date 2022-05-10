@@ -32,8 +32,8 @@ const About = () => {
           Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
           Currently, I am studying Integrated Design and Media at New York University - Tandon School of Engineering. 
           Throughout my education and experience, I became passionate about creative technology, especially AR and VR.  
-          To become a creative technologist, I have been developing websites and mobile Augmented Reality applications using Three.js, React.js React Native, Reality Kit, Xcode, and Spark AR. 
-          I am also learning Unity and Unreal Engine to create AR and VR projects.  
+          To become a creative technologist specializing in AR and VR, 
+          I have been working on projects using TypeScript, Vite, Three.js, React.js, React Native, Xcode (Swift & RealityKit), Unity, and Spark AR.  
           With my diverse background, I am applying my versatile knowledge to solve problems in various industries, such as the fashion industry.
         </Text>
       </motion.div>
