@@ -33,7 +33,7 @@ const sustainable = () => {
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
           <iframe 
-            title='wow'
+            title='sustainable fashion'
             src="/sustainable.mp4"
             allowFullScreen
             allow="autoplay"
