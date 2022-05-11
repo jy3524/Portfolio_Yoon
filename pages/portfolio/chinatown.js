@@ -9,7 +9,7 @@ const chinatown = () => {
       </Title>
       <List>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
-          This is a team project in a graduate-level course at NYU. We built this mobile application using RealityKit, Swift, and Spark AR.
+          This is a team project in a graduate-level course at NYU (Mobile Augmented Reality Studio). We built this mobile application using RealityKit, Swift, and Spark AR.
         </ListItem>
         <PortfolioImage src="/thumbAR.png" alt="Chinatown"/>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
@@ -66,6 +66,9 @@ const chinatown = () => {
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           We only had 5 weeks to build this application so it was too late to change the platform like Unity or Lens Studio. 
           So, we just build the RealityKit AR effect without object detection function for the Wing On Wo location.
+        </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Future Improvement:
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           The next step of this project will be adding more locations and using different technologies 
