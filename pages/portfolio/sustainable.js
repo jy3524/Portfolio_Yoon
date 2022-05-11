@@ -1,4 +1,4 @@
-import { Container, List, ListItem } from '@chakra-ui/react';
+import { Container, List, ListItem, AspectRatio } from '@chakra-ui/react';
 import { Title, PortfolioImage } from '../../components/port';
 
 const sustainable = () => {
@@ -8,7 +8,7 @@ const sustainable = () => {
         ReStore
       </Title>
       <List>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+        <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
           This mobile app is built with React Native.
         </ListItem>
         <PortfolioImage src="/sustainable.png" alt="Sustainable"/>
@@ -31,6 +31,14 @@ const sustainable = () => {
           One possible solution (but not perfect) is to establish a sustainable fashion brand. 
           To support sustainable fashion, I created a mobile shopping application where users can purchase sustainable fashion items.
         </ListItem>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='wow'
+            src="/sustainable.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
       </List>
     </Container>
   )

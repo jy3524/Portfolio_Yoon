@@ -8,19 +8,25 @@ const chinatown = () => {
         Chinatown AR
       </Title>
       <List>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+        <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
           This is a team project in a graduate-level course at NYU. We built this mobile application using RealityKit, Swift, and Spark AR.
         </ListItem>
         <PortfolioImage src="/thumbAR.png" alt="Chinatown"/>
-        <ListItem fontFamily="Gill Sans" fontSize={18}>
-          Team members: Ruiyang Dai (3D Modeler), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Team members:
         </ListItem>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+        <ListItem fontFamily="Gill Sans" fontSize={18}>
+          Ruiyang Dai (3D Modeler), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
+        </ListItem>
+        <ListItem fontFamily="Courier" fontSize={22} mt={6}>
           We are inspired by NYC Chinatown culture and history. 
           We want to tell the stories of generational businesses that bring joy to the Asian-American community with the use of Augmented Reality.
         </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          How to use:
+        </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          How to use: Users can locate the designated area on the map and start scanning the object or landmark by using our mobile app.
+          Users can locate the designated area on the map and start scanning the object or landmark by using our mobile app.
           It will detect the object or landmark and show the AR effect around that object or landmark.
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
@@ -32,7 +38,7 @@ const chinatown = () => {
           />
         </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          As you can see, this AR effect (Spark AR) works well with object detection and image detection. 
+          As you can see above, this AR effect (Spark AR) works well with object detection and image detection. 
           However, the challenge we had was with RealityKit and Reality Composer.
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
@@ -44,7 +50,8 @@ const chinatown = () => {
           />
         </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          Apple AR developer tools are not as advanced as we expected. 
+          Like the video above, RealityKit and Reality Composer can detect an object and show AR effects around that object.
+          However, Apple AR developer tools are not as advanced as we expected and have many limitations. 
           It only detects objects when nothing has changed around the object. 
           If we slightly move the object, it does not recognize the object anymore because it also detects the background patterns.
         </ListItem>
