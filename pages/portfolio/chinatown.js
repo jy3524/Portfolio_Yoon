@@ -39,20 +39,10 @@ const chinatown = () => {
         </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           As you can see above, this AR effect (Spark AR) works well with object detection and image detection. 
-          However, the challenge we had was with RealityKit and Reality Composer.
         </ListItem>
-        <AspectRatio maxW="580" ratio={1} mt={6}>
-          <iframe 
-            title='object detection'
-            src="/object_detection.mp4"
-            allowFullScreen
-            allow="autoplay"
-          />
-        </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          Like the video above, RealityKit and Reality Composer can detect an object and show AR effects around that object.
-          However, Apple AR developer tools are not as advanced as we expected and have many limitations. 
-          It only detects objects when nothing has changed around the object. 
+          However, RealityKit and Reality Composer are not as advanced as we expected and have many limitations.
+          RealityKit and Reality Composer can only detect an object and show AR effects around that object when nothing has changed around the object.
           If we slightly move the object, it does not recognize the object anymore because it also detects the background patterns.
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
@@ -64,8 +54,8 @@ const chinatown = () => {
           />
         </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          We only had 5 weeks to build this application so it was too late to change the platform like Unity or Lens Studio. 
-          So, we just build the RealityKit AR effect without object detection function for the Wing On Wo location.
+          We only had 5 weeks to build this application so it was too late to change the platform like Unity with Vuforia or Lens Studio. 
+          So, we just build the RealityKit AR effect without object detection function for this location.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Future Improvement:
