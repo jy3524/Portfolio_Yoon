@@ -19,7 +19,7 @@ const About = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }}
             marginTop={5}
-            src="/Jeongin_Yoon.jpg" 
+            src="/Holo_Headshot.jpg" 
             alt='profile image'
           />
         </motion.div>
