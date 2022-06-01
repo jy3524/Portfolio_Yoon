@@ -8,10 +8,10 @@ const sustainable = () => {
         ReStore
       </Title>
       <List>
+        <PortfolioImage src="/sustainable.png" alt="Sustainable"/>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
           This mobile app is built with React Native.
         </ListItem>
-        <PortfolioImage src="/sustainable.png" alt="Sustainable"/>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           About This Project:
         </ListItem>

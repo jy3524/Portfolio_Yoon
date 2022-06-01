@@ -8,16 +8,24 @@ const chinatown = () => {
         Chinatown AR
       </Title>
       <List>
+        <PortfolioImage src="/thumbAR.png" alt="Chinatown"/>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
           This is a team project in a graduate-level course at NYU (Mobile Augmented Reality Studio). We built this mobile application using RealityKit, Swift, and Spark AR.
         </ListItem>
-        <PortfolioImage src="/thumbAR.png" alt="Chinatown"/>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Team members:
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18}>
           Ruiyang Dai (3D Modeler), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
         </ListItem>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='chinatown'
+            src="/chinatown.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
         <ListItem fontFamily="Courier" fontSize={22} mt={6}>
           We are inspired by NYC Chinatown culture and history. 
           We want to tell the stories of generational businesses that bring joy to the Asian-American community with the use of Augmented Reality.
@@ -26,7 +34,7 @@ const chinatown = () => {
           How to use:
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          Users can locate the designated area on the map and start scanning the object or landmark by using our mobile app.
+          When users arrive at the pinned location on the map, users can start scanning the object or landmark by using our mobile app.
           It will detect the object or landmark and show the AR effect around that object or landmark.
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
