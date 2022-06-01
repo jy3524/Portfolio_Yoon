@@ -18,6 +18,14 @@ const chinatown = () => {
         <ListItem fontFamily="Gill Sans" fontSize={18}>
           Ruiyang Dai (3D Modeler), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
         </ListItem>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='chinatown'
+            src="/chinatown.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
         <ListItem fontFamily="Courier" fontSize={22} mt={6}>
           We are inspired by NYC Chinatown culture and history. 
           We want to tell the stories of generational businesses that bring joy to the Asian-American community with the use of Augmented Reality.
