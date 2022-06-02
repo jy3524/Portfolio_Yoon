@@ -8,7 +8,7 @@ export default function Header({ children, router }) {
       <Head>
         <title>Jeongin Yoon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="image" property="og:image" content="https://drive.google.com/file/d/13xUoZHJYA41tad_kDbq8zhWtvmitVczL/view?usp=sharing" />
+        <meta name="image" property="og:image" content="/metaimage.png" />
         <meta name="description" property="og:description" content="Portfolio Website - Jeongin Yoon" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
