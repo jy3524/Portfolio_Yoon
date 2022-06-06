@@ -13,7 +13,7 @@ const scope = () => {
           Web Version
         </ListItem>
         <Link fontFamily="Gill Sans" fontSize={20} color="blue.200" href='https://jy3524.github.io/ACC_Homework_Repo/week9/dist/' isExternal>
-          Link to Live on GitHub
+          Link to Live on GitHub Page
         </Link>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           This project is to showcase the 3D model on the web.
@@ -21,6 +21,16 @@ const scope = () => {
           I built the 3D scope model using Maya. 
           The model is exported to the glTF file format and imported into the webpage by using Three.js.
           Viewers can drag and scroll to control the camera view.
+        </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          WebVR Version
+        </ListItem>
+        <Link fontFamily="Gill Sans" fontSize={20} color="blue.200" href='https://jy3524.github.io/webvr0/build/' isExternal>
+          Link to Live on GitHub Page
+        </Link>
+        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+          For the VR version, I used React and A-Frame to import the 3D model into a WebVR world.
+          While using the VR headset, click the VR button on the bottom right corner of the webpage to initiate the VR mode.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Physical Computing Version
