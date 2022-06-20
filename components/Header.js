@@ -8,7 +8,7 @@ export default function Header({ children, router }) {
       <Head>
         <title>Jeongin Yoon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="image" property="og:image" content="/metaimage.png" />
+        <meta name="image" property="og:image" content="https://github.com/jy3524/Portfolio_Yoon/blob/main/public/metaimage.png?raw=true" />
         <meta name="description" property="og:description" content="Portfolio Website - Jeongin Yoon" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
