@@ -20,7 +20,7 @@ const Home = () => {
           fontWeight="medium"
           size="lg"
         >
-          Hi, My name is JEONGIN YOON.
+          Hi, My name is JEONGIN YOON 🇰🇷.
           I am a creative technologist based in NYC. 
           I am passionate about human-centered design and engineering for AR/VR.
         </Heading>

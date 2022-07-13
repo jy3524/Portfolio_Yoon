@@ -15,17 +15,17 @@ const Portfolio = () => {
       <SimpleGrid columns={[1,1,2]} gap={6} fontFamily="Gill Sans">
         <Section>
           <PortGridItem id="chinatown" title="Chinatown AR" thumbnail={thumbAR}>
-            An Augmented Reality Mobile Application Development
+            Augmented Reality Mobile Application Development
           </PortGridItem>
         </Section>
         <Section>
           <PortGridItem id="sustainable" title="ReStore" thumbnail={thumbSustain}>
-            A Sustainable Fashion Brand Mobile Application Development
+            Sustainable Fashion Brand Mobile Application Development
           </PortGridItem>
         </Section>
         <Section>
-          <PortGridItem id="scope" title="3D Scope" thumbnail={thumbScope}>
-            A 3D Model Turntable & Physical Computing
+          <PortGridItem id="scope" title="3D Model - Scope" thumbnail={thumbScope}>
+            Web, WebVR, and Physical Computing
           </PortGridItem>
         </Section>
       </SimpleGrid>

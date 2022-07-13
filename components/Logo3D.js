@@ -35,7 +35,7 @@ const Logo3D = () => {
   }, [renderer])
 
   useEffect(() => {
-    const { current: container} = refContainer;
+    const { current: container } = refContainer;
     if (container && !renderer) {
       const scW = container.clientWidth;
       const scH = container.clientHeight;
@@ -80,7 +80,7 @@ const Logo3D = () => {
 
       let req = null;
       let frame = 0;
-      const animate = () =>{
+      const animate = () => {
         req = requestAnimationFrame(animate)
 
         frame = frame <= 100 ? frame + 1 : frame

@@ -26,15 +26,14 @@ const About = () => {
       </Box>
       <motion.div>
         <Text fontFamily="Gill Sans" fontSize={20} mb={4} align="center" marginTop={5}>
-          Hello, My name is Jeongin. 
+          Hello, I am Jeongin Yoon from South Korea 🇰🇷.
           I have an interdisciplinary background in Analytics, Business, Design, and Technology. 
           I hold a Master of Science degree in Business Analytics from Indiana University - Kelley School of Business. 
           Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
           Currently, I am studying Integrated Design and Media at New York University - Tandon School of Engineering. 
-          Throughout my education and experience, I became passionate about creative technology, especially AR and VR.  
-          To become a creative technologist specializing in AR and VR, 
-          I have been working on projects using TypeScript, Vite, Three.js, React.js, React Native, Xcode (Swift & RealityKit), Unity, and Spark AR.  
-          With my diverse background, I am applying my versatile knowledge to solve problems in various industries, such as the fashion industry.
+          Throughout my education and experience, I became passionate about creative technology, especially AR and VR.
+          I have been working on a variety of projects using TypeScript, Three.js, React.js, React Native, Xcode (Swift & RealityKit), Unity, and Spark AR.  
+          With my diverse background, I am applying my versatile knowledge to solve problems in various industries.
         </Text>
       </motion.div>
     </Container>
