@@ -33,6 +33,21 @@ const scope = () => {
           While using the VR headset, click the VR button on the bottom right corner of the webpage to initiate the VR mode.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          AR Version
+        </ListItem>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='ARScope'
+            src="/ARScope.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
+        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+          For the AR version, I used Unity with Vuforia Engine to implement the image recognition feature.
+          This AR app can recognize my profile image and show the 3D scope AR effect on top of the image.
+        </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Physical Computing Version
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>

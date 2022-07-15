@@ -25,7 +25,7 @@ const Portfolio = () => {
         </Section>
         <Section>
           <PortGridItem id="scope" title="3D Model - Scope" thumbnail={thumbScope}>
-            Web, WebVR, and Physical Computing
+            Web, WebVR, AR, and Physical Computing
           </PortGridItem>
         </Section>
       </SimpleGrid>

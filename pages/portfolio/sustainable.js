@@ -31,6 +31,17 @@ const sustainable = () => {
           One possible solution (but not perfect) is to establish a sustainable fashion brand. 
           To support sustainable fashion, I created a mobile shopping application where users can purchase sustainable fashion items.
         </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Moodboard
+        </ListItem>
+        <PortfolioImage src="/moodboard.png" alt="Moodboard"/>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          High Fidelity Wireframe (Figma)
+        </ListItem>
+        <PortfolioImage src="/wireframe.png" alt="Wireframe"/>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Prototype (React Native)
+        </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
           <iframe 
             title='sustainable fashion'
