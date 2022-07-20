@@ -9,13 +9,25 @@ const scope = () => {
       </Title>
       <List>
         <PortfolioImage src="/scope.png" alt="Scope"/>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Web Version
+        </ListItem>
+        <AspectRatio maxW="580" ratio={2} mt={6}>
+          <iframe 
+            title='WebScope'
+            src="/Scope.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          I used Maya to build the 3D Model and React with Three.js to create the scene in the image above.
+          I used Maya to build the 3D model and React with Three.js to create the scene above. 
+          The 3D scope model is exported as a glTF file from 3D software and imported to the webpage.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           WebVR Version
         </ListItem>
-        <Link fontFamily="Gill Sans" fontSize={20} color="blue.200" href='https://jy3524.github.io/webvr0/build/' isExternal>
+        <Link fontFamily="Gill Sans" fontSize={20} color="purple.300" href='https://jy3524.github.io/webvr0/build/' isExternal>
           Link to Live on GitHub Page
         </Link>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
