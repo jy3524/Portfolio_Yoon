@@ -9,18 +9,8 @@ const scope = () => {
       </Title>
       <List>
         <PortfolioImage src="/scope.png" alt="Scope"/>
-        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
-          Web Version
-        </ListItem>
-        <Link fontFamily="Gill Sans" fontSize={20} color="blue.200" href='https://jy3524.github.io/ACC_Homework_Repo/week9/dist/' isExternal>
-          Link to Live on GitHub Page
-        </Link>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          This project is to showcase the 3D model on the web.
-          For the web version, I used Typescript, Three.js, and Vite to import the 3D model into a webpage.
-          I built the 3D scope model using Maya. 
-          The model is exported to the glTF file format and imported into the webpage by using Three.js.
-          Viewers can drag and scroll to control the camera view.
+          I used Maya to build the 3D Model and React with Three.js to create the scene in the image above.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           WebVR Version

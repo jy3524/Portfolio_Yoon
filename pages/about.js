@@ -26,7 +26,7 @@ const About = () => {
       </Box>
       <motion.div>
         <Text fontFamily="Gill Sans" fontSize={20} mb={4} align="center" marginTop={5}>
-          Hello, I am Jeongin Yoon from South Korea 🇰🇷.
+          Hello, I am Jeongin Yoon from South Korea 🇰🇷. I am a creative technologist based in New York City.
           I have an interdisciplinary background in Analytics, Business, Design, and Technology. 
           I hold a Master of Science degree in Business Analytics from Indiana University - Kelley School of Business. 
           Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
