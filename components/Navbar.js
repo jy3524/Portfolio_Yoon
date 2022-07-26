@@ -76,7 +76,7 @@ const Navbar = props => {
           <LinkItem href="/contact" path={path}>
             Contact
           </LinkItem>
-          <Link href={`https://drive.google.com/file/d/1RixN_LXu9GQSYhmt5dAHqxL93pQXd_PM/view?usp=sharing`} path={path} target='_blank'>
+          <Link href={`https://drive.google.com/file/d/1TEJAU0U8Shw16BS1AOiHPe2U8AjoZR3R/view?usp=sharing`} path={path} target='_blank'>
             Resume
           </Link>
         </Stack>
