@@ -1,4 +1,4 @@
-import { Container, List, ListItem, AspectRatio } from '@chakra-ui/react';
+import { Container, List, ListItem, Link, AspectRatio } from '@chakra-ui/react';
 import { Title, PortfolioImage } from '../../components/port';
 
 const chinatown = () => {
@@ -16,22 +16,24 @@ const chinatown = () => {
           Team members
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18}>
-          Ruiyang Dai (3D Modeler), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
+          Ruiyang Dai (3D Designer), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
         </ListItem>
-        <AspectRatio maxW="580" ratio={1} mt={6}>
-          <iframe 
-            title='chinatown'
-            src="/chinatown.mp4"
-            allowFullScreen
-            allow="autoplay"
-          />
-        </AspectRatio>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          Presentation Document
+        </ListItem>
+        <Link fontFamily="Gill Sans" fontSize={20} color="purple.300" href='https://www.youtube.com/watch?v=Uh9wZnQqJOk' isExternal>
+          Link to Presentation Video
+        </Link>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
+          High Fidelity Wireframe
+        </ListItem>
+        <PortfolioImage src="/AR_Wireframe.png" alt="ARWireframe"/>
         <ListItem fontFamily="Courier" fontSize={22} mt={6}>
           We are inspired by NYC Chinatown culture and history. 
           We want to tell the stories of generational businesses that bring joy to the Asian-American community with the use of Augmented Reality.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
-          How to use
+          About Project
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           When users arrive at the pinned location on the map, users can start scanning the object or landmark by using our mobile app.
@@ -57,6 +59,14 @@ const chinatown = () => {
           <iframe 
             title='wow'
             src="/WOW.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='chinatown'
+            src="/chinatown.mp4"
             allowFullScreen
             allow="autoplay"
           />
