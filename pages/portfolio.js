@@ -5,6 +5,7 @@ import Section from '../components/section';
 import thumbAR from '../public/thumbAR.png';
 import thumbSustain from '../public/sustainable.png';
 import thumbScope from '../public/scope.png';
+import thumbCatwalk from '../public/catwalk.png'
 
 const Portfolio = () => {
   return (
@@ -26,6 +27,11 @@ const Portfolio = () => {
         <Section>
           <PortGridItem id="scope" title="3D Model - Scope" thumbnail={thumbScope}>
             Web, WebVR, AR, and Physical Computing
+          </PortGridItem>
+        </Section>
+        <Section>
+          <PortGridItem id="catwalk" title="Virtual Fashion Show" thumbnail={thumbCatwalk}>
+            Virtual Production Development - Fashion Show Catwalk Scene
           </PortGridItem>
         </Section>
       </SimpleGrid>
