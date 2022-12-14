@@ -25,10 +25,13 @@ const niagara = () => {
         <ListItem fontFamily="Gill Sans" fontSize={18}>
           Ozi Chukwukeme (Project Manager) <br /> Liam Tsang (Creative Director) <br /> Jeongin Yoon (Technical Director)
         </ListItem>
-        <ListItem fontFamily="Courier" fontSize={22} mt={6} mb={10}>
+        <ListItem fontFamily="Courier" fontSize={22} mt={6}>
           The Niagara Gallery brings the traditional art gallery experience to virtual reality, granting audiences of various abilities, locations, and interests access to a sensational new world.
           The Niagara Experience is the most interactive and immersive artistic escapade available, and promises to activate senses you never knew you had.
           All from the comfort of your own home.
+        </ListItem>
+        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6} mb={6}>
+          VR Screen Recording
         </ListItem>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Gfhe8MeFIzw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </List>

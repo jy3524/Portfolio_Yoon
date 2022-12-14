@@ -7,6 +7,7 @@ import thumbSustain from '../public/sustainable.png';
 import thumbScope from '../public/scope.png';
 import thumbCatwalk from '../public/catwalk.png';
 import thumbVRniagara from '../public/sakura_banner.png';
+import thumbStress from '../public/stressrelief.png';
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,12 @@ const Portfolio = () => {
         Portfolio
       </Heading>
       <SimpleGrid columns={[1,1,2]} gap={6} fontFamily="Gill Sans">
-      <Section>
+        <Section>
+          <PortGridItem id="stressrelief" title="Island" thumbnail={thumbStress}>
+            Stress Relief Experience with Sensory VR
+          </PortGridItem>
+        </Section>
+        <Section>
           <PortGridItem id="niagaraVR" title="Niagara Gallery" thumbnail={thumbVRniagara}>
             Virtual Reality - Gallery Exhibition
           </PortGridItem>
