@@ -10,7 +10,7 @@ const catwalk = () => {
       <List>
         <PortfolioImage src="/catwalk.png" alt="catwalk"/>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
-          This virtual production short film was created by using Unreal Engine 5.
+          This virtual production short film was created using Unreal Engine 5.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Virtual Fashion Show

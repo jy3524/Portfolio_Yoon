@@ -5,7 +5,8 @@ import Section from '../components/section';
 import thumbAR from '../public/thumbAR.png';
 import thumbSustain from '../public/sustainable.png';
 import thumbScope from '../public/scope.png';
-import thumbCatwalk from '../public/catwalk.png'
+import thumbCatwalk from '../public/catwalk.png';
+import thumbVRniagara from '../public/sakura_banner.png';
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,11 @@ const Portfolio = () => {
         Portfolio
       </Heading>
       <SimpleGrid columns={[1,1,2]} gap={6} fontFamily="Gill Sans">
+      <Section>
+          <PortGridItem id="niagaraVR" title="Niagara Gallery" thumbnail={thumbVRniagara}>
+            Virtual Reality - Gallery Exhibition
+          </PortGridItem>
+        </Section>
         <Section>
           <PortGridItem id="chinatown" title="Chinatown AR" thumbnail={thumbAR}>
             Augmented Reality Mobile Application Development

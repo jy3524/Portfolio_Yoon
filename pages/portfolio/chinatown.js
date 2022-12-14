@@ -16,7 +16,7 @@ const chinatown = () => {
           Team members
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18}>
-          Ruiyang Dai (3D Designer), Jackie Sabillon (Designer), Xin Tian (Designer), Cleo Xiao (Developer), Jeongin Yoon (Developer)
+          Ruiyang Dai (3D Designer) <br /> Jackie Sabillon (Designer) <br /> Xin Tian (Designer) <br /> Cleo Xiao (Developer) <br /> Jeongin Yoon (Developer)
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Presentation Document
