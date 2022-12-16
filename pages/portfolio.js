@@ -18,7 +18,7 @@ const Portfolio = () => {
       <SimpleGrid columns={[1,1,2]} gap={6} fontFamily="Gill Sans">
         <Section>
           <PortGridItem id="stressrelief" title="Island" thumbnail={thumbStress}>
-            Stress Relief Experience with Sensory VR
+            Stress Relief Experience with Multisensory VR
           </PortGridItem>
         </Section>
         <Section>

@@ -1,4 +1,4 @@
-import { Container, List, Link, ListItem } from '@chakra-ui/react';
+import { Container, List, Link, ListItem, AspectRatio } from '@chakra-ui/react';
 import { Title, PortfolioImage } from '../../components/port';
 
 const stress = () => {
@@ -35,7 +35,7 @@ const stress = () => {
           The article also mentioned that “stress level was reduced in a `cost-effective` and `accessible` manner by VR”
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
-          Sensory VR Experience
+          Multisensory VR Experience
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           I used olfactory sense and wind to create more immersive experience.
@@ -44,12 +44,19 @@ const stress = () => {
           So, when users interact with those objects in the virtual world, they can smell them in the real world.
           Also, there is a fan that generates wind. Users can feel the breeze from the virtual ocean in the real world.
         </ListItem>
+        <PortfolioImage src="/sensoryinvr.png" alt="sensoryvr"/>
+        <PortfolioImage src="/sensoryitems.png" alt="sensoryitems"/>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6}>
           Showcase Video
         </ListItem>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
-          WIP - video will be uploaded after the IDM showcase.
-        </ListItem>
+        <AspectRatio maxW="580" ratio={1} mt={6}>
+          <iframe 
+            title='vrshowcase'
+            src="/multisensory.mp4"
+            allowFullScreen
+            allow="autoplay"
+          />
+        </AspectRatio>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6} mb={6}>
           VR Screen Recording
         </ListItem>
