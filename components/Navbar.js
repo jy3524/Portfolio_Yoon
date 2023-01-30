@@ -76,7 +76,7 @@ const Navbar = props => {
           <LinkItem href="/contact" path={path}>
             Contact
           </LinkItem>
-          <Link href={`https://drive.google.com/file/d/1TEJAU0U8Shw16BS1AOiHPe2U8AjoZR3R/view?usp=sharing`} path={path} target='_blank'>
+          <Link href={`https://drive.google.com/file/d/1ECBvLDft-xqFx3GumKy6udX6UUQEQ8MW/view?usp=share_link`} path={path} target='_blank'>
             Resume
           </Link>
         </Stack>
@@ -109,7 +109,7 @@ const Navbar = props => {
                 <NextLink href="/contact" passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">Contact</MenuItem>
                 </NextLink>
-                <NextLink href={`https://drive.google.com/file/d/1LqWSQDSOe-Ettjxl0yHB4Y8XURtvrupM/view?usp=sharing`} passHref>
+                <NextLink href={`https://drive.google.com/file/d/1ECBvLDft-xqFx3GumKy6udX6UUQEQ8MW/view?usp=share_link`} passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">Resume</MenuItem>
                 </NextLink>
               </MenuList>

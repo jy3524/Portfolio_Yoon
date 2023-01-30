@@ -30,7 +30,7 @@ const About = () => {
           I have an interdisciplinary background in Analytics, Business, Design, and Technology. 
           I hold a Master of Science degree in Business Analytics from Indiana University - Kelley School of Business. 
           Previously, I worked for Nordstrom, Philip Morris International, and The New School. 
-          Currently, I am studying Integrated Design and Media at New York University - Tandon School of Engineering. 
+          Recently, I graduated from Integrated Design and Media program at New York University - Tandon School of Engineering. 
           Throughout my education and experience, I became passionate about creative technology, especially AR and VR.
           I have been working on a variety of projects using TypeScript, Three.js, React.js, React Native, Xcode (Swift & RealityKit), Unity, and Spark AR.  
           With my diverse background, I am applying my versatile knowledge to solve problems in various industries.
