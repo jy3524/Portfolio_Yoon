@@ -6,7 +6,7 @@ import thumbAR from '../public/thumbAR.png';
 import thumbSustain from '../public/sustainable.png';
 import thumbScope from '../public/scope.png';
 import thumbCatwalk from '../public/catwalk.png';
-import thumbVRniagara from '../public/sakura_banner.png';
+import thumbVRniagara from '../public/sakurabanner.png';
 import thumbStress from '../public/stressrelief.png';
 import thumbAltruismAR from '../public/altruismAR.png';
 

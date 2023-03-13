@@ -8,7 +8,7 @@ const niagara = () => {
         Virtual Reality - Niagara Gallery Exhibition
       </Title>
       <List>
-        <PortfolioImage src="/sakura_banner.png" alt="sakura"/>
+        <PortfolioImage src="/sakurabanner.png" alt="sakura"/>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6}>
           This VR exhibition was created using Unreal Engine 5.
         </ListItem>
