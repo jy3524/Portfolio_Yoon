@@ -8,6 +8,7 @@ import thumbScope from '../public/scope.png';
 import thumbCatwalk from '../public/catwalk.png';
 import thumbVRniagara from '../public/sakura_banner.png';
 import thumbStress from '../public/stressrelief.png';
+import thumbAltruismAR from '../public/altruismAR.png';
 
 const Portfolio = () => {
   return (
@@ -28,12 +29,17 @@ const Portfolio = () => {
         </Section>
         <Section>
           <PortGridItem id="chinatown" title="Chinatown AR" thumbnail={thumbAR}>
-            Augmented Reality Mobile Application Development
+            Augmented Reality Landmark Application - Mobile
           </PortGridItem>
         </Section>
         <Section>
           <PortGridItem id="sustainable" title="ReStore" thumbnail={thumbSustain}>
-            Sustainable Fashion Brand Mobile Application Development
+            Sustainable Fashion Brand Application - Mobile
+          </PortGridItem>
+        </Section>
+        <Section>
+          <PortGridItem id="altruism" title="Altruism" thumbnail={thumbAltruismAR}>
+            Augmented Reality Shopping Experience
           </PortGridItem>
         </Section>
         <Section>
