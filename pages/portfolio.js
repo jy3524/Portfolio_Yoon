@@ -23,7 +23,7 @@ const Portfolio = () => {
           </PortGridItem>
         </Section>
         <Section>
-          <PortGridItem id="niagaraVR" title="Niagara Gallery" thumbnail={thumbVRniagara}>
+          <PortGridItem id="niagaraVR" title="Niagara" thumbnail={thumbVRniagara}>
             Virtual Reality - Gallery Exhibition
           </PortGridItem>
         </Section>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           </PortGridItem>
         </Section>
         <Section>
-          <PortGridItem id="catwalk" title="Virtual Fashion Show" thumbnail={thumbCatwalk}>
+          <PortGridItem id="catwalk" title="FashionShow" thumbnail={thumbCatwalk}>
             Virtual Production Development - Fashion Show Catwalk Scene
           </PortGridItem>
         </Section>

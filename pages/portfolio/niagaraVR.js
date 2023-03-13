@@ -33,7 +33,7 @@ const niagara = () => {
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6} mb={6}>
           VR Screen Recording
         </ListItem>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gfhe8MeFIzw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Gfhe8MeFIzw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </List>
     </Container>
   )
