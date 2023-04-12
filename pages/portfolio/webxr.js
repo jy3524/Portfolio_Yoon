@@ -1,4 +1,4 @@
-import { Container, List, ListItem, Link, AspectRatio } from '@chakra-ui/react';
+import { Container, List, ListItem, Link, AspectRatio, Image, Center } from '@chakra-ui/react';
 import { Title, PortfolioImage } from '../../components/port';
 
 const webxr = () => {
@@ -16,12 +16,17 @@ const webxr = () => {
           Dancer
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6} mb={6}>
-          This project is created using A-frame and AR.js.
+          This WebAR project is created using A-frame and AR.js.
         </ListItem>
-        <Link fontFamily="Gill Sans" fontSize={20} color="purple.300" href='https://marbled-rambunctious-seahorse.glitch.me/' isExternal>
-          Try AR on your mobile device
-        </Link>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mb={6}>
+        <Center>
+          <Image src='/webqr.png' alt="webqr" boxSize='300px'></Image>
+        </Center>
+        <Center>
+          <Link fontFamily="Gill Sans" fontSize={20} color="purple.300" href='https://marbled-rambunctious-seahorse.glitch.me/' isExternal>
+            Try AR on your mobile device.
+          </Link>
+        </Center>
+        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
           Touch screen to make the dancer 2X bigger.
         </ListItem>
         <AspectRatio maxW="580" ratio={1} mt={6}>
