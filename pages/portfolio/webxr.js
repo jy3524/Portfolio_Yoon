@@ -10,7 +10,7 @@ const webxr = () => {
       <List>
         <PortfolioImage src="/webxr.png" alt="WebXR"/>
         <ListItem fontFamily="Gill Sans" fontSize={18} fontWeight="bold" mt={6} mb={6}>
-          A-frame WebVR and Unity WebGL projects are in progress.
+          A-frame WebVR and Unity VR - WebGL projects are in progress.
         </ListItem>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={6} mb={6}>
           Dancer
