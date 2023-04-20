@@ -47,7 +47,7 @@ const webxr = () => {
         <Link fontFamily="Gill Sans" fontSize={20} color="purple.300" href='https://common-wholesale-protest.glitch.me/' isExternal>
           Try with your HMD device.
         </Link>
-        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6}>
+        <ListItem fontFamily="Gill Sans" fontSize={18} mt={6} mb={6}>
           Use your HMD device to enter a fully immersive VR website. 
           Clicking a link above and then clicking the VR button on the right bottom corner to enter VR mode.
           Locomotion with the left thumbstick on your left VR controller and turn around with the right thumbstick on your right VR controller.
@@ -56,6 +56,7 @@ const webxr = () => {
           This interactive VR website is a prototype landing page for a portfolio website to present 3D models and animations.
           There is also a routing feature so that I can link other VR or 3D interactive websites with this landing page.
         </ListItem>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/VHT0rtlUKSA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={12} mb={6}>
           Unity VR - WebGL project is in progress.
         </ListItem>
