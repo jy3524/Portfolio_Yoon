@@ -57,9 +57,6 @@ const webxr = () => {
           There is also a routing feature so that I can link other VR or 3D interactive websites with this landing page.
         </ListItem>
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/VHT0rtlUKSA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        <ListItem fontFamily="Gill Sans" fontSize={24} fontWeight="bold" mt={12} mb={6}>
-          Unity VR - WebGL project is in progress.
-        </ListItem>
       </List>
     </Container>
   )
