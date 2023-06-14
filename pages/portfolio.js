@@ -10,6 +10,7 @@ import thumbVRniagara from '../public/sakurabanner.png';
 import thumbStress from '../public/stressrelief.png';
 import thumbAltruismAR from '../public/altruismAR.png';
 import thumbWebAR from '../public/webxr.png';
+import thumbHana from '../public/thumb_hana.png';
 
 const Portfolio = () => {
   return (
@@ -51,6 +52,11 @@ const Portfolio = () => {
         <Section>
           <PortGridItem id="scope" title="3D Model - Scope" thumbnail={thumbScope}>
             Web, WebVR, AR, and Physical Computing
+          </PortGridItem>
+        </Section>
+        <Section>
+          <PortGridItem id="fashion" title="3D Fashion Design" thumbnail={thumbHana}>
+            Metahuman Custom Clothing Design
           </PortGridItem>
         </Section>
         <Section>
