@@ -106,9 +106,6 @@ const Navbar = props => {
                 <NextLink href="/contact" passHref>
                   <MenuItem fontFamily="Gill Sans" fontWeight="bold">Contact</MenuItem>
                 </NextLink>
-                <NextLink href={`https://drive.google.com/file/d/1ECBvLDft-xqFx3GumKy6udX6UUQEQ8MW/view?usp=share_link`} passHref>
-                  <MenuItem fontFamily="Gill Sans" fontWeight="bold">Resume</MenuItem>
-                </NextLink>
               </MenuList>
             </Menu>
           </Box>
